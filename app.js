@@ -37,6 +37,7 @@ const el = {
 const DEFAULT_LOCATION_BY_SCOPE = {
   "Municípios do ERJ": "Rio de Janeiro",
   "Capitais do Brasil": "Rio de Janeiro (RJ)",
+  SCCS: "SCCS",
 };
 
 const formatter = new Intl.NumberFormat("pt-BR", {
@@ -69,6 +70,23 @@ function indicatorsForScope(scope) {
   return state.data.indicators.filter((item) => item.scope === scope);
 }
 
+function yearsForIndicator(indicator) {
+  return indicator?.years?.length ? indicator.years : state.data.years;
+}
+
+function updateYearSelect() {
+  const indicator = currentIndicator();
+  const years = yearsForIndicator(indicator);
+  if (!years.includes(state.year)) {
+    state.year = years.at(-1) || state.data.years.at(-1);
+  }
+  updateSelect(
+    el.yearSelect,
+    years.map((year) => ({ value: year, label: year })),
+    state.year,
+  );
+}
+
 function displayIndicatorName(indicator) {
   if (indicator.sheet === "Capitais - Produção Amblatoriai") {
     return "Capitais - Produção Ambulatorial";
@@ -97,6 +115,12 @@ function preferredLocation(indicator, locations) {
   return locations.find((location) => location.toLowerCase().includes("rio de janeiro")) || "";
 }
 
+function scopeDetail(scope) {
+  if (scope === "Capitais do Brasil") return "capitais comparadas";
+  if (scope === "SCCS") return "unidades comparadas";
+  return "municípios comparados";
+}
+
 function updateSelect(select, options, selectedValue) {
   select.innerHTML = options
     .map((option) => {
@@ -122,11 +146,7 @@ function setupFilters() {
     state.scope,
   );
   updateIndicatorSelect();
-  updateSelect(
-    el.yearSelect,
-    state.data.years.map((year) => ({ value: year, label: year })),
-    state.year,
-  );
+  updateYearSelect();
   updateLocationSelect();
 }
 
@@ -159,30 +179,46 @@ function updateLocationSelect() {
 
 function renderSummary(indicator) {
   const scopeLocationCount = state.data.summary.locationCounts[indicator.scope] || indicator.stats.locations;
+  const years = yearsForIndicator(indicator);
   const yearRows = selectedYearRows(indicator);
   const positiveThisYear = yearRows.filter((row) => row.value > 0).length;
   const zeroShare = Math.round(indicator.stats.zeroShare * 100);
+  const sccsRow = indicator.rows.find((row) => row.location === "SCCS");
+  const sccsValue = sccsRow?.values[String(state.year)];
   const cards = [
     {
       label: "Indicadores no painel",
       value: state.data.summary.indicatorCount,
-      detail: `${state.data.years[0]}-${state.data.years.at(-1)}`,
+      detail: years.length > 1 ? `${years[0]}-${years.at(-1)}` : `${years[0]}`,
     },
     {
       label: indicator.scope,
       value: scopeLocationCount,
-      detail: indicator.scope === "Capitais do Brasil" ? "capitais comparadas" : "municípios comparados",
+      detail: scopeDetail(indicator.scope),
     },
+    ...(indicator.scope === "SCCS"
+      ? [
+          {
+            label: `SCCS em ${state.year}`,
+            value: formatValue(sccsValue, indicator.unit),
+            detail: "unidade em destaque",
+          },
+        ]
+      : []),
     {
       label: `Com registro em ${state.year}`,
       value: positiveThisYear,
       detail: `${yearRows.length - positiveThisYear} sem registro no ano`,
     },
-    {
-      label: "Zeros no indicador",
-      value: `${zeroShare}%`,
-      detail: indicator.rare ? "usar leitura por presença e ranking" : "ranking contínuo disponível",
-    },
+    ...(indicator.scope === "SCCS"
+      ? []
+      : [
+          {
+            label: "Zeros no indicador",
+            value: `${zeroShare}%`,
+            detail: indicator.rare ? "usar leitura por presença e ranking" : "ranking contínuo disponível",
+          },
+        ]),
   ];
   el.summaryGrid.innerHTML = cards
     .map(
@@ -206,21 +242,24 @@ function renderIndicatorHead(indicator) {
 }
 
 function renderRanking(indicator) {
-  const rows = selectedYearRows(indicator)
+  const yearRows = selectedYearRows(indicator);
+  const rows = yearRows
     .filter((row) => row.value > 0)
     .sort((a, b) => b.value - a.value)
     .slice(0, 10);
   const max = rows[0]?.value || 0;
+  const focusRow = yearRows.find((row) => row.location === "SCCS" && row.value > 0);
+  const showFocusRow = indicator.scope === "SCCS" && focusRow && !rows.some((row) => row.location === "SCCS");
   el.rankingTitle.textContent = `Top 10 em ${state.year}`;
   if (!rows.length) {
     el.rankingChart.innerHTML = `<div class="empty-state">Sem registros positivos para este ano.</div>`;
     return;
   }
-  el.rankingChart.innerHTML = rows
+  const topRows = rows
     .map((row) => {
       const width = Math.max(3, (row.value / max) * 100);
       return `
-        <div class="bar-row" title="${escapeHtml(row.location)}">
+        <div class="bar-row ${row.location === "SCCS" ? "focus-row" : ""}" title="${escapeHtml(row.location)}">
           <span class="bar-label">${escapeHtml(row.location)}</span>
           <span class="bar-track"><span class="bar-fill" style="width:${width}%"></span></span>
           <span class="bar-value">${formatValue(row.value, indicator.unit)}</span>
@@ -228,6 +267,16 @@ function renderRanking(indicator) {
       `;
     })
     .join("");
+  const focusMarkup = showFocusRow
+    ? `
+        <div class="bar-row focus-row" title="SCCS">
+          <span class="bar-label">SCCS</span>
+          <span class="bar-track"><span class="bar-fill" style="width:${Math.max(3, (focusRow.value / max) * 100)}%"></span></span>
+          <span class="bar-value">${formatValue(focusRow.value, indicator.unit)}</span>
+        </div>
+      `
+    : "";
+  el.rankingChart.innerHTML = topRows + focusMarkup;
 }
 
 function renderTrend(indicator) {
@@ -237,24 +286,25 @@ function renderTrend(indicator) {
     el.trendChart.innerHTML = `<div class="empty-state">Sem localidade selecionada.</div>`;
     return;
   }
-  const values = state.data.years.map((year) => Number(row.values[String(year)] || 0));
+  const years = yearsForIndicator(indicator);
+  const values = years.map((year) => Number(row.values[String(year)] || 0));
   const max = Math.max(...values, 1);
   const min = Math.min(...values, 0);
   const width = 520;
   const height = 260;
   const pad = 34;
   const points = values.map((value, index) => {
-    const x = pad + (index * (width - pad * 2)) / (values.length - 1);
+    const x = values.length === 1 ? width / 2 : pad + (index * (width - pad * 2)) / (values.length - 1);
     const y = height - pad - ((value - min) / (max - min || 1)) * (height - pad * 2);
-    return { x, y, value, year: state.data.years[index] };
+    return { x, y, value, year: years[index] };
   });
   const path = points.map((point, index) => `${index ? "L" : "M"} ${point.x} ${point.y}`).join(" ");
-  const area = `${path} L ${points.at(-1).x} ${height - pad} L ${points[0].x} ${height - pad} Z`;
+  const area = points.length > 1 ? `${path} L ${points.at(-1).x} ${height - pad} L ${points[0].x} ${height - pad} Z` : "";
   el.trendChart.innerHTML = `
     <svg viewBox="0 0 ${width} ${height}" role="img" aria-label="Evolução de ${escapeHtml(state.location)}">
       <line x1="${pad}" y1="${height - pad}" x2="${width - pad}" y2="${height - pad}" stroke="#d8e0e2" />
       <line x1="${pad}" y1="${pad}" x2="${pad}" y2="${height - pad}" stroke="#d8e0e2" />
-      <path d="${area}" fill="rgba(31, 122, 109, 0.12)"></path>
+      ${area ? `<path d="${area}" fill="rgba(31, 122, 109, 0.12)"></path>` : ""}
       <path d="${path}" fill="none" stroke="#1f7a6d" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
       ${points
         .map(
@@ -294,21 +344,22 @@ function filteredRows(indicator) {
 
 function renderTable(indicator) {
   const rows = filteredRows(indicator);
+  const years = yearsForIndicator(indicator);
   const allValues = indicator.rows.flatMap((row) => Object.values(row.values).map(Number));
   const max = Math.max(...allValues, 1);
   el.tableTitle.textContent = `${rows.length} linhas exibidas`;
   el.tableHead.innerHTML = `
     <tr>
-      <th>${indicator.scope === "Capitais do Brasil" ? "Capital" : "Município"}</th>
-      ${state.data.years.map((year) => `<th>${year}</th>`).join("")}
+      <th>${indicator.scope === "Capitais do Brasil" ? "Capital" : indicator.scope === "SCCS" ? "Unidade" : "Município"}</th>
+      ${years.map((year) => `<th>${year}</th>`).join("")}
     </tr>
   `;
   el.tableBody.innerHTML = rows
     .map(
       (row) => `
-      <tr>
+      <tr class="${row.location === "SCCS" ? "is-focus" : ""}">
         <td>${escapeHtml(row.location)}</td>
-        ${state.data.years
+        ${years
           .map((year) => {
             const value = Number(row.values[String(year)] || 0);
             return `<td class="${heatClass(value, max)}">${formatValue(value, indicator.unit)}</td>`;
@@ -357,6 +408,7 @@ function render() {
   const indicator = currentIndicator();
   if (!indicator) return;
   updateIndicatorSelect();
+  updateYearSelect();
   updateLocationSelect();
   renderSummary(indicator);
   renderIndicatorHead(indicator);
@@ -373,6 +425,7 @@ function bindEvents() {
     state.location = "";
     state.sortByValue = false;
     updateIndicatorSelect();
+    updateYearSelect();
     updateLocationSelect();
     render();
   });
@@ -380,6 +433,7 @@ function bindEvents() {
     state.indicatorId = event.target.value;
     state.location = "";
     state.sortByValue = false;
+    updateYearSelect();
     updateLocationSelect();
     render();
   });

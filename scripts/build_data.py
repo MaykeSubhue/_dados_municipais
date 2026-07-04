@@ -13,7 +13,8 @@ from openpyxl import load_workbook
 ROOT = Path(__file__).resolve().parents[1]
 SOURCE_XLSX = ROOT.parent / "tmp" / "demanda_comparacao_municipios.xlsx"
 OUTPUT_JSON = ROOT / "data.json"
-YEARS = [2020, 2021, 2022, 2023, 2024, 2025]
+DEFAULT_YEARS = [2020, 2021, 2022, 2023, 2024, 2025]
+SCCS_SHEETS = {"Produção por 100mil habitantes", "OCI por 100 mil habitantes"}
 
 
 def clean_text(value: Any) -> str:
@@ -67,6 +68,8 @@ def as_float(value: Any) -> float | None:
 
 
 def infer_scope(sheet_name: str) -> str:
+    if sheet_name in SCCS_SHEETS:
+        return "SCCS"
     return "Capitais do Brasil" if sheet_name.startswith("Capitais -") else "Municípios do ERJ"
 
 
@@ -81,9 +84,23 @@ def infer_unit(title: str, subtitle: str) -> str:
         return "dias"
     if "taxa de natalidade" in title_l:
         return "por 1.000 hab."
+    if "100 mil" in title_l or "100 mil" in subtitle_l:
+        return "por 100 mil hab."
     if "1.000" in title or "1.000" in subtitle or "1.000" in subtitle_l:
         return "por 1.000 hab."
     return subtitle or "valor"
+
+
+def year_columns(ws: Any) -> list[tuple[int, int]]:
+    columns: list[tuple[int, int]] = []
+    for col_index in range(2, ws.max_column + 1):
+        raw_value = ws.cell(3, col_index).value
+        value = clean_text(raw_value)
+        if isinstance(raw_value, (int, float)) and 1900 <= int(raw_value) <= 2100:
+            columns.append((col_index, int(raw_value)))
+        elif value.isdigit() and 1900 <= int(value) <= 2100:
+            columns.append((col_index, int(value)))
+    return columns
 
 
 def notes_from_sheet(ws: Any, first_data_row: int) -> list[str]:
@@ -115,6 +132,9 @@ def parse_sheet(ws: Any) -> dict[str, Any] | None:
     label = clean_text(ws.cell(2, 2).value)
     if not title or not label:
         return None
+    columns = year_columns(ws)
+    if not columns:
+        columns = [(col_offset, year) for col_offset, year in enumerate(DEFAULT_YEARS, start=2)]
 
     rows: list[dict[str, Any]] = []
     records: list[dict[str, Any]] = []
@@ -130,8 +150,8 @@ def parse_sheet(ws: Any) -> dict[str, Any] | None:
 
         values: dict[str, float] = {}
         has_year = False
-        for col_offset, year in enumerate(YEARS, start=2):
-            value = as_float(ws.cell(row_idx, col_offset).value)
+        for col_index, year in columns:
+            value = as_float(ws.cell(row_idx, col_index).value)
             if value is None:
                 continue
             values[str(year)] = value
@@ -151,6 +171,7 @@ def parse_sheet(ws: Any) -> dict[str, Any] | None:
     if not rows:
         return None
 
+    indicator_years = sorted({int(year) for row in rows for year in row["values"]})
     all_values = [value for row in rows for value in row["values"].values()]
     zero_count = sum(1 for value in all_values if value == 0)
     non_zero_count = len(all_values) - zero_count
@@ -165,6 +186,7 @@ def parse_sheet(ws: Any) -> dict[str, Any] | None:
         "label": label,
         "scope": infer_scope(ws.title),
         "unit": infer_unit(title, label),
+        "years": indicator_years,
         "rare": zero_share >= 0.45,
         "rows": rows,
         "notes": notes_from_sheet(ws, 4),
@@ -188,13 +210,14 @@ def main() -> None:
     for indicator in indicators:
         indicator.pop("records", None)
 
+    years = sorted({year for indicator in indicators for year in indicator["years"]}) or DEFAULT_YEARS
     payload = {
         "generatedAt": datetime.now().isoformat(timespec="seconds"),
         "source": {
             "title": "Demanda_Comparação Municipios",
             "spreadsheetUrl": "https://docs.google.com/spreadsheets/d/18MPMdnP5OQ4q39GwBh5BIxLaqakhrtUHDhFPRkWDCNw/edit",
         },
-        "years": YEARS,
+        "years": years,
         "indicators": indicators,
         "records": records,
         "summary": {

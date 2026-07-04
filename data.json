@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-04T18:59:31",
+  "generatedAt": "2026-07-04T19:23:54",
   "source": {
     "title": "Demanda_Comparação Municipios",
     "spreadsheetUrl": "https://docs.google.com/spreadsheets/d/18MPMdnP5OQ4q39GwBh5BIxLaqakhrtUHDhFPRkWDCNw/edit"
@@ -20,6 +20,14 @@
       "label": "Internações — por 1.000 hab.",
       "scope": "Municípios do ERJ",
       "unit": "por 1.000 hab.",
+      "years": [
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
       "rare": false,
       "rows": [
         {
@@ -1062,6 +1070,14 @@
       "label": "AIH — por 1.000 hab.",
       "scope": "Municípios do ERJ",
       "unit": "por 1.000 hab.",
+      "years": [
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
       "rare": false,
       "rows": [
         {
@@ -2104,6 +2120,14 @@
       "label": "Valor AIH (R$) — por 1.000 hab.",
       "scope": "Municípios do ERJ",
       "unit": "R$ por 1.000 hab.",
+      "years": [
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
       "rare": false,
       "rows": [
         {
@@ -3146,6 +3170,14 @@
       "label": "Tempo médio de permanência (dias)",
       "scope": "Municípios do ERJ",
       "unit": "dias",
+      "years": [
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
       "rare": false,
       "rows": [
         {
@@ -4188,6 +4220,14 @@
       "label": "Internações cirúrgicas — por 1.000 hab.",
       "scope": "Municípios do ERJ",
       "unit": "por 1.000 hab.",
+      "years": [
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
       "rare": true,
       "rows": [
         {
@@ -5230,6 +5270,14 @@
       "label": "Internações clínicas — por 1.000 hab.",
       "scope": "Municípios do ERJ",
       "unit": "por 1.000 hab.",
+      "years": [
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
       "rare": false,
       "rows": [
         {
@@ -6272,6 +6320,14 @@
       "label": "Procedimentos ambulatoriais — por 1.000 hab.",
       "scope": "Municípios do ERJ",
       "unit": "por 1.000 hab.",
+      "years": [
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
       "rare": false,
       "rows": [
         {
@@ -7314,6 +7370,14 @@
       "label": "Nascidos vivos por 1.000 hab.",
       "scope": "Municípios do ERJ",
       "unit": "por 1.000 hab.",
+      "years": [
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
       "rare": false,
       "rows": [
         {
@@ -8358,6 +8422,14 @@
       "label": "Nascidos vivos — por 1.000 hab.",
       "scope": "Municípios do ERJ",
       "unit": "por 1.000 hab.",
+      "years": [
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
       "rare": false,
       "rows": [
         {
@@ -9402,6 +9474,14 @@
       "label": "Partos vaginais — por 1.000 hab.",
       "scope": "Municípios do ERJ",
       "unit": "por 1.000 hab.",
+      "years": [
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
       "rare": true,
       "rows": [
         {
@@ -10446,6 +10526,14 @@
       "label": "Partos cesáreos — por 1.000 hab.",
       "scope": "Municípios do ERJ",
       "unit": "por 1.000 hab.",
+      "years": [
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
       "rare": true,
       "rows": [
         {
@@ -11490,6 +11578,14 @@
       "label": "Laqueaduras — por 1.000 hab.",
       "scope": "Municípios do ERJ",
       "unit": "por 1.000 hab.",
+      "years": [
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
       "rare": true,
       "rows": [
         {
@@ -12534,6 +12630,14 @@
       "label": "Óbitos maternos por 100.000 NV",
       "scope": "Municípios do ERJ",
       "unit": "por 100.000 nascidos vivos",
+      "years": [
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
       "rare": true,
       "rows": [
         {
@@ -13573,6 +13677,14 @@
       "label": "Ressonâncias por 1.000 hab.",
       "scope": "Municípios do ERJ",
       "unit": "por 1.000 hab.",
+      "years": [
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
       "rare": true,
       "rows": [
         {
@@ -14612,6 +14724,14 @@
       "label": "Leitos por 1.000 hab.",
       "scope": "Municípios do ERJ",
       "unit": "por 1.000 hab.",
+      "years": [
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
       "rare": false,
       "rows": [
         {
@@ -15645,6 +15765,14 @@
       "label": "Qtd. aprovada por 1.000 hab.",
       "scope": "Capitais do Brasil",
       "unit": "por 1.000 hab.",
+      "years": [
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
       "rare": false,
       "rows": [
         {
@@ -15970,6 +16098,14 @@
       "label": "AIH aprovada por 1.000 hab.",
       "scope": "Capitais do Brasil",
       "unit": "por 1.000 hab.",
+      "years": [
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
       "rare": false,
       "rows": [
         {
@@ -16296,6 +16432,14 @@
       "label": "Procedimentos cirúrgicos por 1.000 hab.",
       "scope": "Capitais do Brasil",
       "unit": "por 1.000 hab.",
+      "years": [
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
       "rare": false,
       "rows": [
         {
@@ -16621,6 +16765,14 @@
       "label": "Procedimentos clínicos por 1.000 hab.",
       "scope": "Capitais do Brasil",
       "unit": "por 1.000 hab.",
+      "years": [
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
       "rare": false,
       "rows": [
         {
@@ -16937,6 +17089,332 @@
         "zeroShare": 0.0,
         "latestNonZero": 27,
         "latestAverage": 1287.8296296296296
+      }
+    },
+    {
+      "id": "producao-por-100mil-habitantes",
+      "sheet": "Produção por 100mil habitantes",
+      "title": "Produção total por 100 mil habitantes - Capitais do Brasil e SCCS, 2025",
+      "label": "Procedimentos por 100 mil hab.",
+      "scope": "SCCS",
+      "unit": "por 100 mil hab.",
+      "years": [
+        2025
+      ],
+      "rare": false,
+      "rows": [
+        {
+          "location": "Curitiba",
+          "values": {
+            "2025": 1145948.312163119
+          }
+        },
+        {
+          "location": "São Luís",
+          "values": {
+            "2025": 878534.7077927146
+          }
+        },
+        {
+          "location": "Macapá",
+          "values": {
+            "2025": 852579.664921295
+          }
+        },
+        {
+          "location": "Porto Velho",
+          "values": {
+            "2025": 818809.7946916125
+          }
+        },
+        {
+          "location": "Belém",
+          "values": {
+            "2025": 756630.7075066624
+          }
+        },
+        {
+          "location": "São Paulo",
+          "values": {
+            "2025": 687002.0909770305
+          }
+        },
+        {
+          "location": "Teresina",
+          "values": {
+            "2025": 668809.2640765293
+          }
+        },
+        {
+          "location": "Porto Alegre",
+          "values": {
+            "2025": 651197.2026643212
+          }
+        },
+        {
+          "location": "Cuiabá",
+          "values": {
+            "2025": 642688.3468834688
+          }
+        },
+        {
+          "location": "Rio de Janeiro (demais unidades, sem SCCS)",
+          "values": {
+            "2025": 584656.6545763467
+          }
+        },
+        {
+          "location": "Salvador",
+          "values": {
+            "2025": 556498.1569329117
+          }
+        },
+        {
+          "location": "Natal",
+          "values": {
+            "2025": 472600.6663699921
+          }
+        },
+        {
+          "location": "Aracaju",
+          "values": {
+            "2025": 461046.3568181674
+          }
+        },
+        {
+          "location": "Campo Grande",
+          "values": {
+            "2025": 432108.0546650008
+          }
+        },
+        {
+          "location": "Belo Horizonte",
+          "values": {
+            "2025": 420429.8075394723
+          }
+        },
+        {
+          "location": "Palmas",
+          "values": {
+            "2025": 407642.0323958368
+          }
+        },
+        {
+          "location": "Brasília",
+          "values": {
+            "2025": 398581.4003074511
+          }
+        },
+        {
+          "location": "Vitória",
+          "values": {
+            "2025": 314750.7994105621
+          }
+        },
+        {
+          "location": "Maceió",
+          "values": {
+            "2025": 312845.0099752228
+          }
+        },
+        {
+          "location": "Goiânia",
+          "values": {
+            "2025": 294577.6616423611
+          }
+        },
+        {
+          "location": "Florianópolis",
+          "values": {
+            "2025": 267997.3650435925
+          }
+        },
+        {
+          "location": "Fortaleza",
+          "values": {
+            "2025": 264741.5021371871
+          }
+        },
+        {
+          "location": "Recife",
+          "values": {
+            "2025": 258361.7758188381
+          }
+        },
+        {
+          "location": "Rio Branco",
+          "values": {
+            "2025": 199753.4710707685
+          }
+        },
+        {
+          "location": "Boa Vista",
+          "values": {
+            "2025": 75269.68321877246
+          }
+        },
+        {
+          "location": "Manaus",
+          "values": {
+            "2025": 40629.49011014579
+          }
+        },
+        {
+          "location": "SCCS",
+          "values": {
+            "2025": 16484.2768145917
+          }
+        }
+      ],
+      "notes": [
+        "Produção total por 100 mil habitantes - Capitais do Brasil e SCCS, 2025",
+        "Fonte: CONSOLIDADO SUPER CENTRO BANCO DE DADOS E ANÁLISES.xlsx.",
+        "Período: janeiro a dezembro de 2025, conforme metodologia do arquivo de origem.",
+        "Produção: total da base tratada dividido pela população de referência, multiplicado por 100 mil.",
+        "População: base populacional estimada para 2025, segundo IBGE, conforme metodologia do arquivo de origem.",
+        "SCCS: Super Centro Carioca de Saúde; na produção total, Rio de Janeiro aparece sem SCCS quando indicado na fonte."
+      ],
+      "stats": {
+        "locations": 27,
+        "records": 27,
+        "zeroRecords": 0,
+        "nonZeroRecords": 27,
+        "zeroShare": 0.0,
+        "latestNonZero": 27,
+        "latestAverage": 477080.5280194064
+      }
+    },
+    {
+      "id": "oci-por-100-mil-habitantes",
+      "sheet": "OCI por 100 mil habitantes",
+      "title": "Oferta de Cuidados Integrados por 100 mil habitantes - Municípios do ERJ e SCCS, 2025",
+      "label": "OCI por 100 mil hab.",
+      "scope": "SCCS",
+      "unit": "por 100 mil hab.",
+      "years": [
+        2025
+      ],
+      "rare": false,
+      "rows": [
+        {
+          "location": "Comendador Levy Gasparian",
+          "values": {
+            "2025": 22568.52
+          }
+        },
+        {
+          "location": "Volta Redonda",
+          "values": {
+            "2025": 4666.2
+          }
+        },
+        {
+          "location": "Resende",
+          "values": {
+            "2025": 4324.71
+          }
+        },
+        {
+          "location": "Itaperuna",
+          "values": {
+            "2025": 3267.57
+          }
+        },
+        {
+          "location": "Japeri",
+          "values": {
+            "2025": 1518.043280382888
+          }
+        },
+        {
+          "location": "Duque de Caxias",
+          "values": {
+            "2025": 1192.87713931138
+          }
+        },
+        {
+          "location": "Mesquita",
+          "values": {
+            "2025": 1183.805849130459
+          }
+        },
+        {
+          "location": "Itaguaí",
+          "values": {
+            "2025": 702.3004168648858
+          }
+        },
+        {
+          "location": "Nova Iguaçu",
+          "values": {
+            "2025": 646.5691041483835
+          }
+        },
+        {
+          "location": "Queimados",
+          "values": {
+            "2025": 595.4336674824823
+          }
+        },
+        {
+          "location": "Magé",
+          "values": {
+            "2025": 403.8633254417511
+          }
+        },
+        {
+          "location": "Nilópolis",
+          "values": {
+            "2025": 347.2668810289389
+          }
+        },
+        {
+          "location": "São Gonçalo",
+          "values": {
+            "2025": 320.25
+          }
+        },
+        {
+          "location": "SCCS",
+          "values": {
+            "2025": 192.0594336809579
+          }
+        },
+        {
+          "location": "São João de Meriti",
+          "values": {
+            "2025": 122.6144312040866
+          }
+        },
+        {
+          "location": "Seropédica",
+          "values": {
+            "2025": 68.40106611316838
+          }
+        },
+        {
+          "location": "Belford Roxo",
+          "values": {
+            "2025": 34.14457236334455
+          }
+        }
+      ],
+      "notes": [
+        "Oferta de Cuidados Integrados por 100 mil habitantes - Municípios do ERJ e SCCS, 2025",
+        "Fonte: CONSOLIDADO SUPER CENTRO BANCO DE DADOS E ANÁLISES.xlsx.",
+        "Período: janeiro a dezembro de 2025, conforme metodologia do arquivo de origem.",
+        "Produção: total da base tratada dividido pela população de referência, multiplicado por 100 mil.",
+        "População: base populacional estimada para 2025, segundo IBGE, conforme metodologia do arquivo de origem.",
+        "SCCS: Super Centro Carioca de Saúde; na produção total, Rio de Janeiro aparece sem SCCS quando indicado na fonte."
+      ],
+      "stats": {
+        "locations": 17,
+        "records": 17,
+        "zeroRecords": 0,
+        "nonZeroRecords": 17,
+        "zeroShare": 0.0,
+        "latestNonZero": 17,
+        "latestAverage": 2479.6840686560427
       }
     }
   ],
@@ -79436,18 +79914,328 @@
       "location": "Brasília (DF)",
       "year": 2025,
       "value": 1821.0
+    },
+    {
+      "scope": "SCCS",
+      "indicator": "Produção por 100mil habitantes",
+      "location": "Curitiba",
+      "year": 2025,
+      "value": 1145948.312163119
+    },
+    {
+      "scope": "SCCS",
+      "indicator": "Produção por 100mil habitantes",
+      "location": "São Luís",
+      "year": 2025,
+      "value": 878534.7077927146
+    },
+    {
+      "scope": "SCCS",
+      "indicator": "Produção por 100mil habitantes",
+      "location": "Macapá",
+      "year": 2025,
+      "value": 852579.664921295
+    },
+    {
+      "scope": "SCCS",
+      "indicator": "Produção por 100mil habitantes",
+      "location": "Porto Velho",
+      "year": 2025,
+      "value": 818809.7946916125
+    },
+    {
+      "scope": "SCCS",
+      "indicator": "Produção por 100mil habitantes",
+      "location": "Belém",
+      "year": 2025,
+      "value": 756630.7075066624
+    },
+    {
+      "scope": "SCCS",
+      "indicator": "Produção por 100mil habitantes",
+      "location": "São Paulo",
+      "year": 2025,
+      "value": 687002.0909770305
+    },
+    {
+      "scope": "SCCS",
+      "indicator": "Produção por 100mil habitantes",
+      "location": "Teresina",
+      "year": 2025,
+      "value": 668809.2640765293
+    },
+    {
+      "scope": "SCCS",
+      "indicator": "Produção por 100mil habitantes",
+      "location": "Porto Alegre",
+      "year": 2025,
+      "value": 651197.2026643212
+    },
+    {
+      "scope": "SCCS",
+      "indicator": "Produção por 100mil habitantes",
+      "location": "Cuiabá",
+      "year": 2025,
+      "value": 642688.3468834688
+    },
+    {
+      "scope": "SCCS",
+      "indicator": "Produção por 100mil habitantes",
+      "location": "Rio de Janeiro (demais unidades, sem SCCS)",
+      "year": 2025,
+      "value": 584656.6545763467
+    },
+    {
+      "scope": "SCCS",
+      "indicator": "Produção por 100mil habitantes",
+      "location": "Salvador",
+      "year": 2025,
+      "value": 556498.1569329117
+    },
+    {
+      "scope": "SCCS",
+      "indicator": "Produção por 100mil habitantes",
+      "location": "Natal",
+      "year": 2025,
+      "value": 472600.6663699921
+    },
+    {
+      "scope": "SCCS",
+      "indicator": "Produção por 100mil habitantes",
+      "location": "Aracaju",
+      "year": 2025,
+      "value": 461046.3568181674
+    },
+    {
+      "scope": "SCCS",
+      "indicator": "Produção por 100mil habitantes",
+      "location": "Campo Grande",
+      "year": 2025,
+      "value": 432108.0546650008
+    },
+    {
+      "scope": "SCCS",
+      "indicator": "Produção por 100mil habitantes",
+      "location": "Belo Horizonte",
+      "year": 2025,
+      "value": 420429.8075394723
+    },
+    {
+      "scope": "SCCS",
+      "indicator": "Produção por 100mil habitantes",
+      "location": "Palmas",
+      "year": 2025,
+      "value": 407642.0323958368
+    },
+    {
+      "scope": "SCCS",
+      "indicator": "Produção por 100mil habitantes",
+      "location": "Brasília",
+      "year": 2025,
+      "value": 398581.4003074511
+    },
+    {
+      "scope": "SCCS",
+      "indicator": "Produção por 100mil habitantes",
+      "location": "Vitória",
+      "year": 2025,
+      "value": 314750.7994105621
+    },
+    {
+      "scope": "SCCS",
+      "indicator": "Produção por 100mil habitantes",
+      "location": "Maceió",
+      "year": 2025,
+      "value": 312845.0099752228
+    },
+    {
+      "scope": "SCCS",
+      "indicator": "Produção por 100mil habitantes",
+      "location": "Goiânia",
+      "year": 2025,
+      "value": 294577.6616423611
+    },
+    {
+      "scope": "SCCS",
+      "indicator": "Produção por 100mil habitantes",
+      "location": "Florianópolis",
+      "year": 2025,
+      "value": 267997.3650435925
+    },
+    {
+      "scope": "SCCS",
+      "indicator": "Produção por 100mil habitantes",
+      "location": "Fortaleza",
+      "year": 2025,
+      "value": 264741.5021371871
+    },
+    {
+      "scope": "SCCS",
+      "indicator": "Produção por 100mil habitantes",
+      "location": "Recife",
+      "year": 2025,
+      "value": 258361.7758188381
+    },
+    {
+      "scope": "SCCS",
+      "indicator": "Produção por 100mil habitantes",
+      "location": "Rio Branco",
+      "year": 2025,
+      "value": 199753.4710707685
+    },
+    {
+      "scope": "SCCS",
+      "indicator": "Produção por 100mil habitantes",
+      "location": "Boa Vista",
+      "year": 2025,
+      "value": 75269.68321877246
+    },
+    {
+      "scope": "SCCS",
+      "indicator": "Produção por 100mil habitantes",
+      "location": "Manaus",
+      "year": 2025,
+      "value": 40629.49011014579
+    },
+    {
+      "scope": "SCCS",
+      "indicator": "Produção por 100mil habitantes",
+      "location": "SCCS",
+      "year": 2025,
+      "value": 16484.2768145917
+    },
+    {
+      "scope": "SCCS",
+      "indicator": "OCI por 100 mil habitantes",
+      "location": "Comendador Levy Gasparian",
+      "year": 2025,
+      "value": 22568.52
+    },
+    {
+      "scope": "SCCS",
+      "indicator": "OCI por 100 mil habitantes",
+      "location": "Volta Redonda",
+      "year": 2025,
+      "value": 4666.2
+    },
+    {
+      "scope": "SCCS",
+      "indicator": "OCI por 100 mil habitantes",
+      "location": "Resende",
+      "year": 2025,
+      "value": 4324.71
+    },
+    {
+      "scope": "SCCS",
+      "indicator": "OCI por 100 mil habitantes",
+      "location": "Itaperuna",
+      "year": 2025,
+      "value": 3267.57
+    },
+    {
+      "scope": "SCCS",
+      "indicator": "OCI por 100 mil habitantes",
+      "location": "Japeri",
+      "year": 2025,
+      "value": 1518.043280382888
+    },
+    {
+      "scope": "SCCS",
+      "indicator": "OCI por 100 mil habitantes",
+      "location": "Duque de Caxias",
+      "year": 2025,
+      "value": 1192.87713931138
+    },
+    {
+      "scope": "SCCS",
+      "indicator": "OCI por 100 mil habitantes",
+      "location": "Mesquita",
+      "year": 2025,
+      "value": 1183.805849130459
+    },
+    {
+      "scope": "SCCS",
+      "indicator": "OCI por 100 mil habitantes",
+      "location": "Itaguaí",
+      "year": 2025,
+      "value": 702.3004168648858
+    },
+    {
+      "scope": "SCCS",
+      "indicator": "OCI por 100 mil habitantes",
+      "location": "Nova Iguaçu",
+      "year": 2025,
+      "value": 646.5691041483835
+    },
+    {
+      "scope": "SCCS",
+      "indicator": "OCI por 100 mil habitantes",
+      "location": "Queimados",
+      "year": 2025,
+      "value": 595.4336674824823
+    },
+    {
+      "scope": "SCCS",
+      "indicator": "OCI por 100 mil habitantes",
+      "location": "Magé",
+      "year": 2025,
+      "value": 403.8633254417511
+    },
+    {
+      "scope": "SCCS",
+      "indicator": "OCI por 100 mil habitantes",
+      "location": "Nilópolis",
+      "year": 2025,
+      "value": 347.2668810289389
+    },
+    {
+      "scope": "SCCS",
+      "indicator": "OCI por 100 mil habitantes",
+      "location": "São Gonçalo",
+      "year": 2025,
+      "value": 320.25
+    },
+    {
+      "scope": "SCCS",
+      "indicator": "OCI por 100 mil habitantes",
+      "location": "SCCS",
+      "year": 2025,
+      "value": 192.0594336809579
+    },
+    {
+      "scope": "SCCS",
+      "indicator": "OCI por 100 mil habitantes",
+      "location": "São João de Meriti",
+      "year": 2025,
+      "value": 122.6144312040866
+    },
+    {
+      "scope": "SCCS",
+      "indicator": "OCI por 100 mil habitantes",
+      "location": "Seropédica",
+      "year": 2025,
+      "value": 68.40106611316838
+    },
+    {
+      "scope": "SCCS",
+      "indicator": "OCI por 100 mil habitantes",
+      "location": "Belford Roxo",
+      "year": 2025,
+      "value": 34.14457236334455
     }
   ],
   "summary": {
-    "indicatorCount": 19,
-    "recordCount": 8928,
+    "indicatorCount": 21,
+    "recordCount": 8972,
     "scopeCounts": {
       "Capitais do Brasil": 4,
-      "Municípios do ERJ": 15
+      "Municípios do ERJ": 15,
+      "SCCS": 2
     },
     "locationCounts": {
       "Capitais do Brasil": 27,
-      "Municípios do ERJ": 92
+      "Municípios do ERJ": 92,
+      "SCCS": 43
     }
   }
 }

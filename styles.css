@@ -286,6 +286,22 @@ input:focus {
   border-radius: inherit;
 }
 
+.focus-row {
+  border: 1px solid rgba(184, 117, 20, 0.35);
+  border-radius: 8px;
+  background: #fff8ea;
+  padding: 4px 8px;
+}
+
+.focus-row .bar-label,
+.focus-row .bar-value {
+  color: #805000;
+}
+
+.focus-row .bar-fill {
+  background: linear-gradient(90deg, var(--amber), #d7a441);
+}
+
 .empty-state {
   color: var(--muted);
   font-size: 14px;
@@ -394,6 +410,12 @@ td.heat-3 {
 td.heat-4 {
   background: #55ad97;
   color: #0b271f;
+  font-weight: 800;
+}
+
+tr.is-focus td {
+  background: #fff8ea;
+  color: #6f4700;
   font-weight: 800;
 }
 
