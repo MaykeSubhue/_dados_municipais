@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-04T19:23:54",
+  "generatedAt": "2026-07-04T20:33:59",
   "source": {
     "title": "Demanda_Comparação Municipios",
     "spreadsheetUrl": "https://docs.google.com/spreadsheets/d/18MPMdnP5OQ4q39GwBh5BIxLaqakhrtUHDhFPRkWDCNw/edit"
@@ -15756,6 +15756,338 @@
         "zeroShare": 0.2554347826086957,
         "latestNonZero": 69,
         "latestAverage": 1.5613043478260868
+      }
+    },
+    {
+      "id": "capitais-leitos-por-1-000-habitante",
+      "sheet": "Capitais - Leitos por 1.000 habitante",
+      "title": "Leitos hospitalares por 1.000 habitantes — Capitais do Brasil, 2020–2025",
+      "label": "Leitos por 1.000 hab.",
+      "scope": "Capitais do Brasil",
+      "unit": "por 1.000 hab.",
+      "years": [
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "rare": false,
+      "rows": [
+        {
+          "location": "Porto Velho (RO)",
+          "values": {
+            "2020": 3.07,
+            "2021": 3.16,
+            "2022": 3.34,
+            "2023": 3.13,
+            "2024": 3.11,
+            "2025": 3.37
+          }
+        },
+        {
+          "location": "Rio Branco (AC)",
+          "values": {
+            "2020": 2.48,
+            "2021": 2.31,
+            "2022": 2.52,
+            "2023": 2.41,
+            "2024": 2.62,
+            "2025": 2.61
+          }
+        },
+        {
+          "location": "Manaus (AM)",
+          "values": {
+            "2020": 1.57,
+            "2021": 1.55,
+            "2022": 1.58,
+            "2023": 1.57,
+            "2024": 1.53,
+            "2025": 1.54
+          }
+        },
+        {
+          "location": "Boa Vista (RR)",
+          "values": {
+            "2020": 3.18,
+            "2021": 2.54,
+            "2022": 2.65,
+            "2023": 2.64,
+            "2024": 2.49,
+            "2025": 2.57
+          }
+        },
+        {
+          "location": "Belém (PA)",
+          "values": {
+            "2020": 2.27,
+            "2021": 2.24,
+            "2022": 1.99,
+            "2023": 2.01,
+            "2024": 2.06,
+            "2025": 2.26
+          }
+        },
+        {
+          "location": "Macapá (AP)",
+          "values": {
+            "2020": 1.81,
+            "2021": 1.85,
+            "2022": 1.72,
+            "2023": 2.02,
+            "2024": 2.24,
+            "2025": 2.1
+          }
+        },
+        {
+          "location": "Palmas (TO)",
+          "values": {
+            "2020": 2.04,
+            "2021": 2.25,
+            "2022": 2.12,
+            "2023": 2.07,
+            "2024": 2.11,
+            "2025": 2.1
+          }
+        },
+        {
+          "location": "São Luís (MA)",
+          "values": {
+            "2020": 3.62,
+            "2021": 3.45,
+            "2022": 3.4,
+            "2023": 3.56,
+            "2024": 3.47,
+            "2025": 3.49
+          }
+        },
+        {
+          "location": "Teresina (PI)",
+          "values": {
+            "2020": 3.27,
+            "2021": 3.13,
+            "2022": 2.96,
+            "2023": 2.69,
+            "2024": 2.75,
+            "2025": 2.77
+          }
+        },
+        {
+          "location": "Fortaleza (CE)",
+          "values": {
+            "2020": 2.51,
+            "2021": 2.54,
+            "2022": 2.54,
+            "2023": 2.44,
+            "2024": 2.4,
+            "2025": 2.56
+          }
+        },
+        {
+          "location": "Natal (RN)",
+          "values": {
+            "2020": 3.19,
+            "2021": 3.39,
+            "2022": 3.42,
+            "2023": 3.35,
+            "2024": 3.32,
+            "2025": 3.38
+          }
+        },
+        {
+          "location": "João Pessoa (PB)",
+          "values": {
+            "2020": 2.54,
+            "2021": 2.82,
+            "2022": 2.88,
+            "2023": 2.73,
+            "2024": 2.78,
+            "2025": 2.76
+          }
+        },
+        {
+          "location": "Recife (PE)",
+          "values": {
+            "2020": 4.71,
+            "2021": 4.52,
+            "2022": 4.68,
+            "2023": 4.64,
+            "2024": 4.58,
+            "2025": 4.45
+          }
+        },
+        {
+          "location": "Maceió (AL)",
+          "values": {
+            "2020": 2.81,
+            "2021": 2.47,
+            "2022": 2.55,
+            "2023": 2.57,
+            "2024": 2.61,
+            "2025": 2.57
+          }
+        },
+        {
+          "location": "Aracaju (SE)",
+          "values": {
+            "2020": 3.06,
+            "2021": 2.66,
+            "2022": 2.58,
+            "2023": 2.74,
+            "2024": 2.8,
+            "2025": 3.1
+          }
+        },
+        {
+          "location": "Salvador (BA)",
+          "values": {
+            "2020": 2.69,
+            "2021": 2.59,
+            "2022": 2.44,
+            "2023": 2.35,
+            "2024": 2.51,
+            "2025": 2.46
+          }
+        },
+        {
+          "location": "Belo Horizonte (MG)",
+          "values": {
+            "2020": 2.88,
+            "2021": 2.52,
+            "2022": 2.58,
+            "2023": 2.5,
+            "2024": 2.55,
+            "2025": 2.62
+          }
+        },
+        {
+          "location": "Vitória (ES)",
+          "values": {
+            "2020": 4.01,
+            "2021": 3.73,
+            "2022": 3.81,
+            "2023": 3.43,
+            "2024": 3.99,
+            "2025": 4.13
+          }
+        },
+        {
+          "location": "Rio de Janeiro (RJ)",
+          "values": {
+            "2020": 1.52,
+            "2021": 1.38,
+            "2022": 1.44,
+            "2023": 1.44,
+            "2024": 1.47,
+            "2025": 1.45
+          }
+        },
+        {
+          "location": "São Paulo (SP)",
+          "values": {
+            "2020": 1.53,
+            "2021": 1.5,
+            "2022": 1.51,
+            "2023": 1.5,
+            "2024": 1.51,
+            "2025": 1.5
+          }
+        },
+        {
+          "location": "Curitiba (PR)",
+          "values": {
+            "2020": 1.71,
+            "2021": 1.92,
+            "2022": 1.57,
+            "2023": 1.53,
+            "2024": 1.64,
+            "2025": 1.71
+          }
+        },
+        {
+          "location": "Florianópolis (SC)",
+          "values": {
+            "2020": 2.03,
+            "2021": 2.05,
+            "2022": 2.14,
+            "2023": 2.29,
+            "2024": 2.25,
+            "2025": 2.2
+          }
+        },
+        {
+          "location": "Porto Alegre (RS)",
+          "values": {
+            "2020": 3.48,
+            "2021": 3.37,
+            "2022": 3.44,
+            "2023": 3.42,
+            "2024": 3.47,
+            "2025": 3.59
+          }
+        },
+        {
+          "location": "Campo Grande (MS)",
+          "values": {
+            "2020": 1.79,
+            "2021": 1.78,
+            "2022": 1.86,
+            "2023": 1.83,
+            "2024": 1.83,
+            "2025": 1.74
+          }
+        },
+        {
+          "location": "Cuiabá (MT)",
+          "values": {
+            "2020": 2.17,
+            "2021": 2.02,
+            "2022": 2.24,
+            "2023": 2.18,
+            "2024": 2.39,
+            "2025": 2.53
+          }
+        },
+        {
+          "location": "Goiânia (GO)",
+          "values": {
+            "2020": 2.33,
+            "2021": 2.46,
+            "2022": 2.54,
+            "2023": 2.62,
+            "2024": 2.57,
+            "2025": 2.58
+          }
+        },
+        {
+          "location": "Brasília (DF)",
+          "values": {
+            "2020": 1.68,
+            "2021": 1.65,
+            "2022": 1.7,
+            "2023": 1.68,
+            "2024": 1.8,
+            "2025": 1.86
+          }
+        }
+      ],
+      "notes": [
+        "Fonte: Demanda_de_dados_MRJ_Municipios_ERJ.xlsx - Capitais - Leitos por habitante.pdf.",
+        "Indicador: leitos hospitalares por capital, normalizados por 1.000 habitantes.",
+        "Período: 2020 a 2025. O PDF traz população, total de leitos e a razão final por 1.000 habitantes.",
+        "Fórmula da fonte: leitos / população do ano x 1.000.",
+        "Valores preenchidos a partir da seção 'Leitos por 1.000 hab.' do PDF."
+      ],
+      "stats": {
+        "locations": 27,
+        "records": 162,
+        "zeroRecords": 0,
+        "nonZeroRecords": 162,
+        "zeroShare": 0.0,
+        "latestNonZero": 27,
+        "latestAverage": 2.5925925925925926
       }
     },
     {
@@ -75381,6 +75713,1140 @@
     },
     {
       "scope": "Capitais do Brasil",
+      "indicator": "Capitais - Leitos por 1.000 habitante",
+      "location": "Porto Velho (RO)",
+      "year": 2020,
+      "value": 3.07
+    },
+    {
+      "scope": "Capitais do Brasil",
+      "indicator": "Capitais - Leitos por 1.000 habitante",
+      "location": "Porto Velho (RO)",
+      "year": 2021,
+      "value": 3.16
+    },
+    {
+      "scope": "Capitais do Brasil",
+      "indicator": "Capitais - Leitos por 1.000 habitante",
+      "location": "Porto Velho (RO)",
+      "year": 2022,
+      "value": 3.34
+    },
+    {
+      "scope": "Capitais do Brasil",
+      "indicator": "Capitais - Leitos por 1.000 habitante",
+      "location": "Porto Velho (RO)",
+      "year": 2023,
+      "value": 3.13
+    },
+    {
+      "scope": "Capitais do Brasil",
+      "indicator": "Capitais - Leitos por 1.000 habitante",
+      "location": "Porto Velho (RO)",
+      "year": 2024,
+      "value": 3.11
+    },
+    {
+      "scope": "Capitais do Brasil",
+      "indicator": "Capitais - Leitos por 1.000 habitante",
+      "location": "Porto Velho (RO)",
+      "year": 2025,
+      "value": 3.37
+    },
+    {
+      "scope": "Capitais do Brasil",
+      "indicator": "Capitais - Leitos por 1.000 habitante",
+      "location": "Rio Branco (AC)",
+      "year": 2020,
+      "value": 2.48
+    },
+    {
+      "scope": "Capitais do Brasil",
+      "indicator": "Capitais - Leitos por 1.000 habitante",
+      "location": "Rio Branco (AC)",
+      "year": 2021,
+      "value": 2.31
+    },
+    {
+      "scope": "Capitais do Brasil",
+      "indicator": "Capitais - Leitos por 1.000 habitante",
+      "location": "Rio Branco (AC)",
+      "year": 2022,
+      "value": 2.52
+    },
+    {
+      "scope": "Capitais do Brasil",
+      "indicator": "Capitais - Leitos por 1.000 habitante",
+      "location": "Rio Branco (AC)",
+      "year": 2023,
+      "value": 2.41
+    },
+    {
+      "scope": "Capitais do Brasil",
+      "indicator": "Capitais - Leitos por 1.000 habitante",
+      "location": "Rio Branco (AC)",
+      "year": 2024,
+      "value": 2.62
+    },
+    {
+      "scope": "Capitais do Brasil",
+      "indicator": "Capitais - Leitos por 1.000 habitante",
+      "location": "Rio Branco (AC)",
+      "year": 2025,
+      "value": 2.61
+    },
+    {
+      "scope": "Capitais do Brasil",
+      "indicator": "Capitais - Leitos por 1.000 habitante",
+      "location": "Manaus (AM)",
+      "year": 2020,
+      "value": 1.57
+    },
+    {
+      "scope": "Capitais do Brasil",
+      "indicator": "Capitais - Leitos por 1.000 habitante",
+      "location": "Manaus (AM)",
+      "year": 2021,
+      "value": 1.55
+    },
+    {
+      "scope": "Capitais do Brasil",
+      "indicator": "Capitais - Leitos por 1.000 habitante",
+      "location": "Manaus (AM)",
+      "year": 2022,
+      "value": 1.58
+    },
+    {
+      "scope": "Capitais do Brasil",
+      "indicator": "Capitais - Leitos por 1.000 habitante",
+      "location": "Manaus (AM)",
+      "year": 2023,
+      "value": 1.57
+    },
+    {
+      "scope": "Capitais do Brasil",
+      "indicator": "Capitais - Leitos por 1.000 habitante",
+      "location": "Manaus (AM)",
+      "year": 2024,
+      "value": 1.53
+    },
+    {
+      "scope": "Capitais do Brasil",
+      "indicator": "Capitais - Leitos por 1.000 habitante",
+      "location": "Manaus (AM)",
+      "year": 2025,
+      "value": 1.54
+    },
+    {
+      "scope": "Capitais do Brasil",
+      "indicator": "Capitais - Leitos por 1.000 habitante",
+      "location": "Boa Vista (RR)",
+      "year": 2020,
+      "value": 3.18
+    },
+    {
+      "scope": "Capitais do Brasil",
+      "indicator": "Capitais - Leitos por 1.000 habitante",
+      "location": "Boa Vista (RR)",
+      "year": 2021,
+      "value": 2.54
+    },
+    {
+      "scope": "Capitais do Brasil",
+      "indicator": "Capitais - Leitos por 1.000 habitante",
+      "location": "Boa Vista (RR)",
+      "year": 2022,
+      "value": 2.65
+    },
+    {
+      "scope": "Capitais do Brasil",
+      "indicator": "Capitais - Leitos por 1.000 habitante",
+      "location": "Boa Vista (RR)",
+      "year": 2023,
+      "value": 2.64
+    },
+    {
+      "scope": "Capitais do Brasil",
+      "indicator": "Capitais - Leitos por 1.000 habitante",
+      "location": "Boa Vista (RR)",
+      "year": 2024,
+      "value": 2.49
+    },
+    {
+      "scope": "Capitais do Brasil",
+      "indicator": "Capitais - Leitos por 1.000 habitante",
+      "location": "Boa Vista (RR)",
+      "year": 2025,
+      "value": 2.57
+    },
+    {
+      "scope": "Capitais do Brasil",
+      "indicator": "Capitais - Leitos por 1.000 habitante",
+      "location": "Belém (PA)",
+      "year": 2020,
+      "value": 2.27
+    },
+    {
+      "scope": "Capitais do Brasil",
+      "indicator": "Capitais - Leitos por 1.000 habitante",
+      "location": "Belém (PA)",
+      "year": 2021,
+      "value": 2.24
+    },
+    {
+      "scope": "Capitais do Brasil",
+      "indicator": "Capitais - Leitos por 1.000 habitante",
+      "location": "Belém (PA)",
+      "year": 2022,
+      "value": 1.99
+    },
+    {
+      "scope": "Capitais do Brasil",
+      "indicator": "Capitais - Leitos por 1.000 habitante",
+      "location": "Belém (PA)",
+      "year": 2023,
+      "value": 2.01
+    },
+    {
+      "scope": "Capitais do Brasil",
+      "indicator": "Capitais - Leitos por 1.000 habitante",
+      "location": "Belém (PA)",
+      "year": 2024,
+      "value": 2.06
+    },
+    {
+      "scope": "Capitais do Brasil",
+      "indicator": "Capitais - Leitos por 1.000 habitante",
+      "location": "Belém (PA)",
+      "year": 2025,
+      "value": 2.26
+    },
+    {
+      "scope": "Capitais do Brasil",
+      "indicator": "Capitais - Leitos por 1.000 habitante",
+      "location": "Macapá (AP)",
+      "year": 2020,
+      "value": 1.81
+    },
+    {
+      "scope": "Capitais do Brasil",
+      "indicator": "Capitais - Leitos por 1.000 habitante",
+      "location": "Macapá (AP)",
+      "year": 2021,
+      "value": 1.85
+    },
+    {
+      "scope": "Capitais do Brasil",
+      "indicator": "Capitais - Leitos por 1.000 habitante",
+      "location": "Macapá (AP)",
+      "year": 2022,
+      "value": 1.72
+    },
+    {
+      "scope": "Capitais do Brasil",
+      "indicator": "Capitais - Leitos por 1.000 habitante",
+      "location": "Macapá (AP)",
+      "year": 2023,
+      "value": 2.02
+    },
+    {
+      "scope": "Capitais do Brasil",
+      "indicator": "Capitais - Leitos por 1.000 habitante",
+      "location": "Macapá (AP)",
+      "year": 2024,
+      "value": 2.24
+    },
+    {
+      "scope": "Capitais do Brasil",
+      "indicator": "Capitais - Leitos por 1.000 habitante",
+      "location": "Macapá (AP)",
+      "year": 2025,
+      "value": 2.1
+    },
+    {
+      "scope": "Capitais do Brasil",
+      "indicator": "Capitais - Leitos por 1.000 habitante",
+      "location": "Palmas (TO)",
+      "year": 2020,
+      "value": 2.04
+    },
+    {
+      "scope": "Capitais do Brasil",
+      "indicator": "Capitais - Leitos por 1.000 habitante",
+      "location": "Palmas (TO)",
+      "year": 2021,
+      "value": 2.25
+    },
+    {
+      "scope": "Capitais do Brasil",
+      "indicator": "Capitais - Leitos por 1.000 habitante",
+      "location": "Palmas (TO)",
+      "year": 2022,
+      "value": 2.12
+    },
+    {
+      "scope": "Capitais do Brasil",
+      "indicator": "Capitais - Leitos por 1.000 habitante",
+      "location": "Palmas (TO)",
+      "year": 2023,
+      "value": 2.07
+    },
+    {
+      "scope": "Capitais do Brasil",
+      "indicator": "Capitais - Leitos por 1.000 habitante",
+      "location": "Palmas (TO)",
+      "year": 2024,
+      "value": 2.11
+    },
+    {
+      "scope": "Capitais do Brasil",
+      "indicator": "Capitais - Leitos por 1.000 habitante",
+      "location": "Palmas (TO)",
+      "year": 2025,
+      "value": 2.1
+    },
+    {
+      "scope": "Capitais do Brasil",
+      "indicator": "Capitais - Leitos por 1.000 habitante",
+      "location": "São Luís (MA)",
+      "year": 2020,
+      "value": 3.62
+    },
+    {
+      "scope": "Capitais do Brasil",
+      "indicator": "Capitais - Leitos por 1.000 habitante",
+      "location": "São Luís (MA)",
+      "year": 2021,
+      "value": 3.45
+    },
+    {
+      "scope": "Capitais do Brasil",
+      "indicator": "Capitais - Leitos por 1.000 habitante",
+      "location": "São Luís (MA)",
+      "year": 2022,
+      "value": 3.4
+    },
+    {
+      "scope": "Capitais do Brasil",
+      "indicator": "Capitais - Leitos por 1.000 habitante",
+      "location": "São Luís (MA)",
+      "year": 2023,
+      "value": 3.56
+    },
+    {
+      "scope": "Capitais do Brasil",
+      "indicator": "Capitais - Leitos por 1.000 habitante",
+      "location": "São Luís (MA)",
+      "year": 2024,
+      "value": 3.47
+    },
+    {
+      "scope": "Capitais do Brasil",
+      "indicator": "Capitais - Leitos por 1.000 habitante",
+      "location": "São Luís (MA)",
+      "year": 2025,
+      "value": 3.49
+    },
+    {
+      "scope": "Capitais do Brasil",
+      "indicator": "Capitais - Leitos por 1.000 habitante",
+      "location": "Teresina (PI)",
+      "year": 2020,
+      "value": 3.27
+    },
+    {
+      "scope": "Capitais do Brasil",
+      "indicator": "Capitais - Leitos por 1.000 habitante",
+      "location": "Teresina (PI)",
+      "year": 2021,
+      "value": 3.13
+    },
+    {
+      "scope": "Capitais do Brasil",
+      "indicator": "Capitais - Leitos por 1.000 habitante",
+      "location": "Teresina (PI)",
+      "year": 2022,
+      "value": 2.96
+    },
+    {
+      "scope": "Capitais do Brasil",
+      "indicator": "Capitais - Leitos por 1.000 habitante",
+      "location": "Teresina (PI)",
+      "year": 2023,
+      "value": 2.69
+    },
+    {
+      "scope": "Capitais do Brasil",
+      "indicator": "Capitais - Leitos por 1.000 habitante",
+      "location": "Teresina (PI)",
+      "year": 2024,
+      "value": 2.75
+    },
+    {
+      "scope": "Capitais do Brasil",
+      "indicator": "Capitais - Leitos por 1.000 habitante",
+      "location": "Teresina (PI)",
+      "year": 2025,
+      "value": 2.77
+    },
+    {
+      "scope": "Capitais do Brasil",
+      "indicator": "Capitais - Leitos por 1.000 habitante",
+      "location": "Fortaleza (CE)",
+      "year": 2020,
+      "value": 2.51
+    },
+    {
+      "scope": "Capitais do Brasil",
+      "indicator": "Capitais - Leitos por 1.000 habitante",
+      "location": "Fortaleza (CE)",
+      "year": 2021,
+      "value": 2.54
+    },
+    {
+      "scope": "Capitais do Brasil",
+      "indicator": "Capitais - Leitos por 1.000 habitante",
+      "location": "Fortaleza (CE)",
+      "year": 2022,
+      "value": 2.54
+    },
+    {
+      "scope": "Capitais do Brasil",
+      "indicator": "Capitais - Leitos por 1.000 habitante",
+      "location": "Fortaleza (CE)",
+      "year": 2023,
+      "value": 2.44
+    },
+    {
+      "scope": "Capitais do Brasil",
+      "indicator": "Capitais - Leitos por 1.000 habitante",
+      "location": "Fortaleza (CE)",
+      "year": 2024,
+      "value": 2.4
+    },
+    {
+      "scope": "Capitais do Brasil",
+      "indicator": "Capitais - Leitos por 1.000 habitante",
+      "location": "Fortaleza (CE)",
+      "year": 2025,
+      "value": 2.56
+    },
+    {
+      "scope": "Capitais do Brasil",
+      "indicator": "Capitais - Leitos por 1.000 habitante",
+      "location": "Natal (RN)",
+      "year": 2020,
+      "value": 3.19
+    },
+    {
+      "scope": "Capitais do Brasil",
+      "indicator": "Capitais - Leitos por 1.000 habitante",
+      "location": "Natal (RN)",
+      "year": 2021,
+      "value": 3.39
+    },
+    {
+      "scope": "Capitais do Brasil",
+      "indicator": "Capitais - Leitos por 1.000 habitante",
+      "location": "Natal (RN)",
+      "year": 2022,
+      "value": 3.42
+    },
+    {
+      "scope": "Capitais do Brasil",
+      "indicator": "Capitais - Leitos por 1.000 habitante",
+      "location": "Natal (RN)",
+      "year": 2023,
+      "value": 3.35
+    },
+    {
+      "scope": "Capitais do Brasil",
+      "indicator": "Capitais - Leitos por 1.000 habitante",
+      "location": "Natal (RN)",
+      "year": 2024,
+      "value": 3.32
+    },
+    {
+      "scope": "Capitais do Brasil",
+      "indicator": "Capitais - Leitos por 1.000 habitante",
+      "location": "Natal (RN)",
+      "year": 2025,
+      "value": 3.38
+    },
+    {
+      "scope": "Capitais do Brasil",
+      "indicator": "Capitais - Leitos por 1.000 habitante",
+      "location": "João Pessoa (PB)",
+      "year": 2020,
+      "value": 2.54
+    },
+    {
+      "scope": "Capitais do Brasil",
+      "indicator": "Capitais - Leitos por 1.000 habitante",
+      "location": "João Pessoa (PB)",
+      "year": 2021,
+      "value": 2.82
+    },
+    {
+      "scope": "Capitais do Brasil",
+      "indicator": "Capitais - Leitos por 1.000 habitante",
+      "location": "João Pessoa (PB)",
+      "year": 2022,
+      "value": 2.88
+    },
+    {
+      "scope": "Capitais do Brasil",
+      "indicator": "Capitais - Leitos por 1.000 habitante",
+      "location": "João Pessoa (PB)",
+      "year": 2023,
+      "value": 2.73
+    },
+    {
+      "scope": "Capitais do Brasil",
+      "indicator": "Capitais - Leitos por 1.000 habitante",
+      "location": "João Pessoa (PB)",
+      "year": 2024,
+      "value": 2.78
+    },
+    {
+      "scope": "Capitais do Brasil",
+      "indicator": "Capitais - Leitos por 1.000 habitante",
+      "location": "João Pessoa (PB)",
+      "year": 2025,
+      "value": 2.76
+    },
+    {
+      "scope": "Capitais do Brasil",
+      "indicator": "Capitais - Leitos por 1.000 habitante",
+      "location": "Recife (PE)",
+      "year": 2020,
+      "value": 4.71
+    },
+    {
+      "scope": "Capitais do Brasil",
+      "indicator": "Capitais - Leitos por 1.000 habitante",
+      "location": "Recife (PE)",
+      "year": 2021,
+      "value": 4.52
+    },
+    {
+      "scope": "Capitais do Brasil",
+      "indicator": "Capitais - Leitos por 1.000 habitante",
+      "location": "Recife (PE)",
+      "year": 2022,
+      "value": 4.68
+    },
+    {
+      "scope": "Capitais do Brasil",
+      "indicator": "Capitais - Leitos por 1.000 habitante",
+      "location": "Recife (PE)",
+      "year": 2023,
+      "value": 4.64
+    },
+    {
+      "scope": "Capitais do Brasil",
+      "indicator": "Capitais - Leitos por 1.000 habitante",
+      "location": "Recife (PE)",
+      "year": 2024,
+      "value": 4.58
+    },
+    {
+      "scope": "Capitais do Brasil",
+      "indicator": "Capitais - Leitos por 1.000 habitante",
+      "location": "Recife (PE)",
+      "year": 2025,
+      "value": 4.45
+    },
+    {
+      "scope": "Capitais do Brasil",
+      "indicator": "Capitais - Leitos por 1.000 habitante",
+      "location": "Maceió (AL)",
+      "year": 2020,
+      "value": 2.81
+    },
+    {
+      "scope": "Capitais do Brasil",
+      "indicator": "Capitais - Leitos por 1.000 habitante",
+      "location": "Maceió (AL)",
+      "year": 2021,
+      "value": 2.47
+    },
+    {
+      "scope": "Capitais do Brasil",
+      "indicator": "Capitais - Leitos por 1.000 habitante",
+      "location": "Maceió (AL)",
+      "year": 2022,
+      "value": 2.55
+    },
+    {
+      "scope": "Capitais do Brasil",
+      "indicator": "Capitais - Leitos por 1.000 habitante",
+      "location": "Maceió (AL)",
+      "year": 2023,
+      "value": 2.57
+    },
+    {
+      "scope": "Capitais do Brasil",
+      "indicator": "Capitais - Leitos por 1.000 habitante",
+      "location": "Maceió (AL)",
+      "year": 2024,
+      "value": 2.61
+    },
+    {
+      "scope": "Capitais do Brasil",
+      "indicator": "Capitais - Leitos por 1.000 habitante",
+      "location": "Maceió (AL)",
+      "year": 2025,
+      "value": 2.57
+    },
+    {
+      "scope": "Capitais do Brasil",
+      "indicator": "Capitais - Leitos por 1.000 habitante",
+      "location": "Aracaju (SE)",
+      "year": 2020,
+      "value": 3.06
+    },
+    {
+      "scope": "Capitais do Brasil",
+      "indicator": "Capitais - Leitos por 1.000 habitante",
+      "location": "Aracaju (SE)",
+      "year": 2021,
+      "value": 2.66
+    },
+    {
+      "scope": "Capitais do Brasil",
+      "indicator": "Capitais - Leitos por 1.000 habitante",
+      "location": "Aracaju (SE)",
+      "year": 2022,
+      "value": 2.58
+    },
+    {
+      "scope": "Capitais do Brasil",
+      "indicator": "Capitais - Leitos por 1.000 habitante",
+      "location": "Aracaju (SE)",
+      "year": 2023,
+      "value": 2.74
+    },
+    {
+      "scope": "Capitais do Brasil",
+      "indicator": "Capitais - Leitos por 1.000 habitante",
+      "location": "Aracaju (SE)",
+      "year": 2024,
+      "value": 2.8
+    },
+    {
+      "scope": "Capitais do Brasil",
+      "indicator": "Capitais - Leitos por 1.000 habitante",
+      "location": "Aracaju (SE)",
+      "year": 2025,
+      "value": 3.1
+    },
+    {
+      "scope": "Capitais do Brasil",
+      "indicator": "Capitais - Leitos por 1.000 habitante",
+      "location": "Salvador (BA)",
+      "year": 2020,
+      "value": 2.69
+    },
+    {
+      "scope": "Capitais do Brasil",
+      "indicator": "Capitais - Leitos por 1.000 habitante",
+      "location": "Salvador (BA)",
+      "year": 2021,
+      "value": 2.59
+    },
+    {
+      "scope": "Capitais do Brasil",
+      "indicator": "Capitais - Leitos por 1.000 habitante",
+      "location": "Salvador (BA)",
+      "year": 2022,
+      "value": 2.44
+    },
+    {
+      "scope": "Capitais do Brasil",
+      "indicator": "Capitais - Leitos por 1.000 habitante",
+      "location": "Salvador (BA)",
+      "year": 2023,
+      "value": 2.35
+    },
+    {
+      "scope": "Capitais do Brasil",
+      "indicator": "Capitais - Leitos por 1.000 habitante",
+      "location": "Salvador (BA)",
+      "year": 2024,
+      "value": 2.51
+    },
+    {
+      "scope": "Capitais do Brasil",
+      "indicator": "Capitais - Leitos por 1.000 habitante",
+      "location": "Salvador (BA)",
+      "year": 2025,
+      "value": 2.46
+    },
+    {
+      "scope": "Capitais do Brasil",
+      "indicator": "Capitais - Leitos por 1.000 habitante",
+      "location": "Belo Horizonte (MG)",
+      "year": 2020,
+      "value": 2.88
+    },
+    {
+      "scope": "Capitais do Brasil",
+      "indicator": "Capitais - Leitos por 1.000 habitante",
+      "location": "Belo Horizonte (MG)",
+      "year": 2021,
+      "value": 2.52
+    },
+    {
+      "scope": "Capitais do Brasil",
+      "indicator": "Capitais - Leitos por 1.000 habitante",
+      "location": "Belo Horizonte (MG)",
+      "year": 2022,
+      "value": 2.58
+    },
+    {
+      "scope": "Capitais do Brasil",
+      "indicator": "Capitais - Leitos por 1.000 habitante",
+      "location": "Belo Horizonte (MG)",
+      "year": 2023,
+      "value": 2.5
+    },
+    {
+      "scope": "Capitais do Brasil",
+      "indicator": "Capitais - Leitos por 1.000 habitante",
+      "location": "Belo Horizonte (MG)",
+      "year": 2024,
+      "value": 2.55
+    },
+    {
+      "scope": "Capitais do Brasil",
+      "indicator": "Capitais - Leitos por 1.000 habitante",
+      "location": "Belo Horizonte (MG)",
+      "year": 2025,
+      "value": 2.62
+    },
+    {
+      "scope": "Capitais do Brasil",
+      "indicator": "Capitais - Leitos por 1.000 habitante",
+      "location": "Vitória (ES)",
+      "year": 2020,
+      "value": 4.01
+    },
+    {
+      "scope": "Capitais do Brasil",
+      "indicator": "Capitais - Leitos por 1.000 habitante",
+      "location": "Vitória (ES)",
+      "year": 2021,
+      "value": 3.73
+    },
+    {
+      "scope": "Capitais do Brasil",
+      "indicator": "Capitais - Leitos por 1.000 habitante",
+      "location": "Vitória (ES)",
+      "year": 2022,
+      "value": 3.81
+    },
+    {
+      "scope": "Capitais do Brasil",
+      "indicator": "Capitais - Leitos por 1.000 habitante",
+      "location": "Vitória (ES)",
+      "year": 2023,
+      "value": 3.43
+    },
+    {
+      "scope": "Capitais do Brasil",
+      "indicator": "Capitais - Leitos por 1.000 habitante",
+      "location": "Vitória (ES)",
+      "year": 2024,
+      "value": 3.99
+    },
+    {
+      "scope": "Capitais do Brasil",
+      "indicator": "Capitais - Leitos por 1.000 habitante",
+      "location": "Vitória (ES)",
+      "year": 2025,
+      "value": 4.13
+    },
+    {
+      "scope": "Capitais do Brasil",
+      "indicator": "Capitais - Leitos por 1.000 habitante",
+      "location": "Rio de Janeiro (RJ)",
+      "year": 2020,
+      "value": 1.52
+    },
+    {
+      "scope": "Capitais do Brasil",
+      "indicator": "Capitais - Leitos por 1.000 habitante",
+      "location": "Rio de Janeiro (RJ)",
+      "year": 2021,
+      "value": 1.38
+    },
+    {
+      "scope": "Capitais do Brasil",
+      "indicator": "Capitais - Leitos por 1.000 habitante",
+      "location": "Rio de Janeiro (RJ)",
+      "year": 2022,
+      "value": 1.44
+    },
+    {
+      "scope": "Capitais do Brasil",
+      "indicator": "Capitais - Leitos por 1.000 habitante",
+      "location": "Rio de Janeiro (RJ)",
+      "year": 2023,
+      "value": 1.44
+    },
+    {
+      "scope": "Capitais do Brasil",
+      "indicator": "Capitais - Leitos por 1.000 habitante",
+      "location": "Rio de Janeiro (RJ)",
+      "year": 2024,
+      "value": 1.47
+    },
+    {
+      "scope": "Capitais do Brasil",
+      "indicator": "Capitais - Leitos por 1.000 habitante",
+      "location": "Rio de Janeiro (RJ)",
+      "year": 2025,
+      "value": 1.45
+    },
+    {
+      "scope": "Capitais do Brasil",
+      "indicator": "Capitais - Leitos por 1.000 habitante",
+      "location": "São Paulo (SP)",
+      "year": 2020,
+      "value": 1.53
+    },
+    {
+      "scope": "Capitais do Brasil",
+      "indicator": "Capitais - Leitos por 1.000 habitante",
+      "location": "São Paulo (SP)",
+      "year": 2021,
+      "value": 1.5
+    },
+    {
+      "scope": "Capitais do Brasil",
+      "indicator": "Capitais - Leitos por 1.000 habitante",
+      "location": "São Paulo (SP)",
+      "year": 2022,
+      "value": 1.51
+    },
+    {
+      "scope": "Capitais do Brasil",
+      "indicator": "Capitais - Leitos por 1.000 habitante",
+      "location": "São Paulo (SP)",
+      "year": 2023,
+      "value": 1.5
+    },
+    {
+      "scope": "Capitais do Brasil",
+      "indicator": "Capitais - Leitos por 1.000 habitante",
+      "location": "São Paulo (SP)",
+      "year": 2024,
+      "value": 1.51
+    },
+    {
+      "scope": "Capitais do Brasil",
+      "indicator": "Capitais - Leitos por 1.000 habitante",
+      "location": "São Paulo (SP)",
+      "year": 2025,
+      "value": 1.5
+    },
+    {
+      "scope": "Capitais do Brasil",
+      "indicator": "Capitais - Leitos por 1.000 habitante",
+      "location": "Curitiba (PR)",
+      "year": 2020,
+      "value": 1.71
+    },
+    {
+      "scope": "Capitais do Brasil",
+      "indicator": "Capitais - Leitos por 1.000 habitante",
+      "location": "Curitiba (PR)",
+      "year": 2021,
+      "value": 1.92
+    },
+    {
+      "scope": "Capitais do Brasil",
+      "indicator": "Capitais - Leitos por 1.000 habitante",
+      "location": "Curitiba (PR)",
+      "year": 2022,
+      "value": 1.57
+    },
+    {
+      "scope": "Capitais do Brasil",
+      "indicator": "Capitais - Leitos por 1.000 habitante",
+      "location": "Curitiba (PR)",
+      "year": 2023,
+      "value": 1.53
+    },
+    {
+      "scope": "Capitais do Brasil",
+      "indicator": "Capitais - Leitos por 1.000 habitante",
+      "location": "Curitiba (PR)",
+      "year": 2024,
+      "value": 1.64
+    },
+    {
+      "scope": "Capitais do Brasil",
+      "indicator": "Capitais - Leitos por 1.000 habitante",
+      "location": "Curitiba (PR)",
+      "year": 2025,
+      "value": 1.71
+    },
+    {
+      "scope": "Capitais do Brasil",
+      "indicator": "Capitais - Leitos por 1.000 habitante",
+      "location": "Florianópolis (SC)",
+      "year": 2020,
+      "value": 2.03
+    },
+    {
+      "scope": "Capitais do Brasil",
+      "indicator": "Capitais - Leitos por 1.000 habitante",
+      "location": "Florianópolis (SC)",
+      "year": 2021,
+      "value": 2.05
+    },
+    {
+      "scope": "Capitais do Brasil",
+      "indicator": "Capitais - Leitos por 1.000 habitante",
+      "location": "Florianópolis (SC)",
+      "year": 2022,
+      "value": 2.14
+    },
+    {
+      "scope": "Capitais do Brasil",
+      "indicator": "Capitais - Leitos por 1.000 habitante",
+      "location": "Florianópolis (SC)",
+      "year": 2023,
+      "value": 2.29
+    },
+    {
+      "scope": "Capitais do Brasil",
+      "indicator": "Capitais - Leitos por 1.000 habitante",
+      "location": "Florianópolis (SC)",
+      "year": 2024,
+      "value": 2.25
+    },
+    {
+      "scope": "Capitais do Brasil",
+      "indicator": "Capitais - Leitos por 1.000 habitante",
+      "location": "Florianópolis (SC)",
+      "year": 2025,
+      "value": 2.2
+    },
+    {
+      "scope": "Capitais do Brasil",
+      "indicator": "Capitais - Leitos por 1.000 habitante",
+      "location": "Porto Alegre (RS)",
+      "year": 2020,
+      "value": 3.48
+    },
+    {
+      "scope": "Capitais do Brasil",
+      "indicator": "Capitais - Leitos por 1.000 habitante",
+      "location": "Porto Alegre (RS)",
+      "year": 2021,
+      "value": 3.37
+    },
+    {
+      "scope": "Capitais do Brasil",
+      "indicator": "Capitais - Leitos por 1.000 habitante",
+      "location": "Porto Alegre (RS)",
+      "year": 2022,
+      "value": 3.44
+    },
+    {
+      "scope": "Capitais do Brasil",
+      "indicator": "Capitais - Leitos por 1.000 habitante",
+      "location": "Porto Alegre (RS)",
+      "year": 2023,
+      "value": 3.42
+    },
+    {
+      "scope": "Capitais do Brasil",
+      "indicator": "Capitais - Leitos por 1.000 habitante",
+      "location": "Porto Alegre (RS)",
+      "year": 2024,
+      "value": 3.47
+    },
+    {
+      "scope": "Capitais do Brasil",
+      "indicator": "Capitais - Leitos por 1.000 habitante",
+      "location": "Porto Alegre (RS)",
+      "year": 2025,
+      "value": 3.59
+    },
+    {
+      "scope": "Capitais do Brasil",
+      "indicator": "Capitais - Leitos por 1.000 habitante",
+      "location": "Campo Grande (MS)",
+      "year": 2020,
+      "value": 1.79
+    },
+    {
+      "scope": "Capitais do Brasil",
+      "indicator": "Capitais - Leitos por 1.000 habitante",
+      "location": "Campo Grande (MS)",
+      "year": 2021,
+      "value": 1.78
+    },
+    {
+      "scope": "Capitais do Brasil",
+      "indicator": "Capitais - Leitos por 1.000 habitante",
+      "location": "Campo Grande (MS)",
+      "year": 2022,
+      "value": 1.86
+    },
+    {
+      "scope": "Capitais do Brasil",
+      "indicator": "Capitais - Leitos por 1.000 habitante",
+      "location": "Campo Grande (MS)",
+      "year": 2023,
+      "value": 1.83
+    },
+    {
+      "scope": "Capitais do Brasil",
+      "indicator": "Capitais - Leitos por 1.000 habitante",
+      "location": "Campo Grande (MS)",
+      "year": 2024,
+      "value": 1.83
+    },
+    {
+      "scope": "Capitais do Brasil",
+      "indicator": "Capitais - Leitos por 1.000 habitante",
+      "location": "Campo Grande (MS)",
+      "year": 2025,
+      "value": 1.74
+    },
+    {
+      "scope": "Capitais do Brasil",
+      "indicator": "Capitais - Leitos por 1.000 habitante",
+      "location": "Cuiabá (MT)",
+      "year": 2020,
+      "value": 2.17
+    },
+    {
+      "scope": "Capitais do Brasil",
+      "indicator": "Capitais - Leitos por 1.000 habitante",
+      "location": "Cuiabá (MT)",
+      "year": 2021,
+      "value": 2.02
+    },
+    {
+      "scope": "Capitais do Brasil",
+      "indicator": "Capitais - Leitos por 1.000 habitante",
+      "location": "Cuiabá (MT)",
+      "year": 2022,
+      "value": 2.24
+    },
+    {
+      "scope": "Capitais do Brasil",
+      "indicator": "Capitais - Leitos por 1.000 habitante",
+      "location": "Cuiabá (MT)",
+      "year": 2023,
+      "value": 2.18
+    },
+    {
+      "scope": "Capitais do Brasil",
+      "indicator": "Capitais - Leitos por 1.000 habitante",
+      "location": "Cuiabá (MT)",
+      "year": 2024,
+      "value": 2.39
+    },
+    {
+      "scope": "Capitais do Brasil",
+      "indicator": "Capitais - Leitos por 1.000 habitante",
+      "location": "Cuiabá (MT)",
+      "year": 2025,
+      "value": 2.53
+    },
+    {
+      "scope": "Capitais do Brasil",
+      "indicator": "Capitais - Leitos por 1.000 habitante",
+      "location": "Goiânia (GO)",
+      "year": 2020,
+      "value": 2.33
+    },
+    {
+      "scope": "Capitais do Brasil",
+      "indicator": "Capitais - Leitos por 1.000 habitante",
+      "location": "Goiânia (GO)",
+      "year": 2021,
+      "value": 2.46
+    },
+    {
+      "scope": "Capitais do Brasil",
+      "indicator": "Capitais - Leitos por 1.000 habitante",
+      "location": "Goiânia (GO)",
+      "year": 2022,
+      "value": 2.54
+    },
+    {
+      "scope": "Capitais do Brasil",
+      "indicator": "Capitais - Leitos por 1.000 habitante",
+      "location": "Goiânia (GO)",
+      "year": 2023,
+      "value": 2.62
+    },
+    {
+      "scope": "Capitais do Brasil",
+      "indicator": "Capitais - Leitos por 1.000 habitante",
+      "location": "Goiânia (GO)",
+      "year": 2024,
+      "value": 2.57
+    },
+    {
+      "scope": "Capitais do Brasil",
+      "indicator": "Capitais - Leitos por 1.000 habitante",
+      "location": "Goiânia (GO)",
+      "year": 2025,
+      "value": 2.58
+    },
+    {
+      "scope": "Capitais do Brasil",
+      "indicator": "Capitais - Leitos por 1.000 habitante",
+      "location": "Brasília (DF)",
+      "year": 2020,
+      "value": 1.68
+    },
+    {
+      "scope": "Capitais do Brasil",
+      "indicator": "Capitais - Leitos por 1.000 habitante",
+      "location": "Brasília (DF)",
+      "year": 2021,
+      "value": 1.65
+    },
+    {
+      "scope": "Capitais do Brasil",
+      "indicator": "Capitais - Leitos por 1.000 habitante",
+      "location": "Brasília (DF)",
+      "year": 2022,
+      "value": 1.7
+    },
+    {
+      "scope": "Capitais do Brasil",
+      "indicator": "Capitais - Leitos por 1.000 habitante",
+      "location": "Brasília (DF)",
+      "year": 2023,
+      "value": 1.68
+    },
+    {
+      "scope": "Capitais do Brasil",
+      "indicator": "Capitais - Leitos por 1.000 habitante",
+      "location": "Brasília (DF)",
+      "year": 2024,
+      "value": 1.8
+    },
+    {
+      "scope": "Capitais do Brasil",
+      "indicator": "Capitais - Leitos por 1.000 habitante",
+      "location": "Brasília (DF)",
+      "year": 2025,
+      "value": 1.86
+    },
+    {
+      "scope": "Capitais do Brasil",
       "indicator": "Capitais - Produção Amblatoriai",
       "location": "Porto Velho (RO)",
       "year": 2020,
@@ -80225,10 +81691,10 @@
     }
   ],
   "summary": {
-    "indicatorCount": 21,
-    "recordCount": 8972,
+    "indicatorCount": 22,
+    "recordCount": 9134,
     "scopeCounts": {
-      "Capitais do Brasil": 4,
+      "Capitais do Brasil": 5,
       "Municípios do ERJ": 15,
       "SCCS": 2
     },
