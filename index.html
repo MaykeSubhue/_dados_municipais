@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Painel de Indicadores de Saúde</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <div>
+        <p class="eyebrow">Demanda_Comparação Municipios</p>
+        <h1>Painel de indicadores de saúde</h1>
+      </div>
+      <a class="source-link" href="https://docs.google.com/spreadsheets/d/18MPMdnP5OQ4q39GwBh5BIxLaqakhrtUHDhFPRkWDCNw/edit" target="_blank" rel="noreferrer">
+        Fonte
+      </a>
+    </header>
+
+    <main class="app-shell">
+      <aside class="sidebar" aria-label="Filtros">
+        <label>
+          Recorte
+          <select id="scopeSelect"></select>
+        </label>
+        <label>
+          Indicador
+          <select id="indicatorSelect"></select>
+        </label>
+        <label>
+          Ano
+          <select id="yearSelect"></select>
+        </label>
+        <label>
+          Município ou capital
+          <select id="locationSelect"></select>
+        </label>
+        <label>
+          Buscar na tabela
+          <input id="searchInput" type="search" autocomplete="off" placeholder="Nome" />
+        </label>
+        <label class="switch-row">
+          <input id="showZerosInput" type="checkbox" />
+          Mostrar linhas zeradas
+        </label>
+      </aside>
+
+      <section class="dashboard" aria-live="polite">
+        <section class="summary-grid" id="summaryGrid"></section>
+
+        <section class="indicator-head">
+          <div>
+            <p class="eyebrow" id="scopeLabel"></p>
+            <h2 id="indicatorTitle"></h2>
+            <p id="indicatorSubtitle"></p>
+          </div>
+          <span id="rareBadge" class="badge"></span>
+        </section>
+
+        <section class="panel-grid">
+          <article class="panel ranking-panel">
+            <div class="panel-title">
+              <div>
+                <p class="eyebrow">Ranking</p>
+                <h3 id="rankingTitle"></h3>
+              </div>
+            </div>
+            <div id="rankingChart" class="bar-chart"></div>
+          </article>
+
+          <article class="panel trend-panel">
+            <div class="panel-title">
+              <div>
+                <p class="eyebrow">Evolução</p>
+                <h3 id="trendTitle"></h3>
+              </div>
+            </div>
+            <div id="trendChart" class="line-chart"></div>
+          </article>
+        </section>
+
+        <article class="panel comparison-panel" id="capitalsComparisonPanel" hidden>
+          <div class="panel-title">
+            <div>
+              <p class="eyebrow">Capitais</p>
+              <h3>Produção ambulatorial x AIH</h3>
+            </div>
+          </div>
+          <div id="capitalsComparison" class="comparison-list"></div>
+        </article>
+
+        <article class="panel table-panel">
+          <div class="panel-title">
+            <div>
+              <p class="eyebrow">Tabela</p>
+              <h3 id="tableTitle"></h3>
+            </div>
+            <button id="sortButton" type="button">Ordenar por valor</button>
+          </div>
+          <div class="table-wrap">
+            <table>
+              <thead id="tableHead"></thead>
+              <tbody id="tableBody"></tbody>
+            </table>
+          </div>
+        </article>
+
+        <article class="notes" id="notesPanel"></article>
+      </section>
+    </main>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
